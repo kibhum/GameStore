@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hGi9fR8rT4X1oKF5axZgjskE7WUIiTu3EHQU/SrPNOQ=",
+  "Source": "Gamestore.server",
+  "BasePath": "_content/Gamestore.server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

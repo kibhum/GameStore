@@ -1,0 +1,31 @@
+@baseUrl = http://localhost:5066
+
+GET {{baseUrl}}/games
+
+###
+GET {{baseUrl}}/games/1
+
+###
+POST {{baseUrl}}/games
+Content-Type: application/json
+
+{
+  "name": "",
+  "genre": "Sports and Entertainment",
+  "price": 29.99,
+  "releaseDate": "1991-02-01T00:00:00"
+}
+
+###
+PUT {{baseUrl}}/games/1
+Content-Type: application/json
+
+{
+  "name": "WWE 2K16",
+  "genre": "Sports and Entertainment",
+  "price": 29.99,
+  "releaseDate": "1991-02-01T00:00:00"
+}
+
+###
+DELETE  {{baseUrl}}/games/1
